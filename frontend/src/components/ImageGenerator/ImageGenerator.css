@@ -1,0 +1,98 @@
+.ai-image-generator{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.header{
+    font-size: 70px;
+    font-weight: 50px;
+    padding-bottom: 30px;
+    font-style: italic;
+    color: darkgoldenrod;
+}
+.header span{
+    color:darkgoldenrod;
+    font-weight: 600px;
+
+}
+.img-loading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.img-loading img{
+    width: 512px;
+    align-items: center;
+}
+.search-box{
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background:linear-gradient(to right,darkgoldenrod,blanchedalmond);
+}
+.search-input{
+    width: 600px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 30px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+}
+.search-input::placeholder{
+    color:bisque;
+    font-style: italic;
+}
+.generator-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 30px;
+    border-radius: 50px;
+    background:linear-gradient(to left,lightgreen ,green);
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+}
+.loading-bar{
+    width: 0px;
+    height: 8px;
+    background:linear-gradient(to left,lightgreen ,green,lightgreen);
+}
+.loading-text{
+    font-size: 18px;
+}
+.loading-bar-full{
+    width: 512px;
+    height: 8px;
+    background:linear-gradient(to left,lightgreen ,green,lightgreen);
+    transition: 25s;
+}
+.display-none{
+    display: none;
+}
+.download-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 85px;
+    font-size: 30px;
+    border-radius: 50px;
+    background:linear-gradient(to left,lightgreen ,green);
+    color: white;
+    font-style: italic;
+    cursor: pointer;
+    border:0px;
+}
